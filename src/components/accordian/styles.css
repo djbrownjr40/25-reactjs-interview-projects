@@ -1,20 +1,9 @@
-.acc-wrapper {
+.wrapper {
   display: flex;
   height: 100vh;
-  width: 100vw;
+  width: 100vh;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.acc-wrapper button {
-    padding: 10px 20px;
-    background: #614101;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
 }
 
 .accordian {
@@ -22,20 +11,20 @@
 }
 
 .item {
-  background: #614101;
+  background: #00171F;
   margin-bottom: 10px;
   padding: 10px 20px;
 }
 
 .title {
-  color: #ffffff;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
 
-.acc-content {
-  color: #ffffff;
+.answer{
+  color: white;
   height: auto;
 }
